@@ -86,7 +86,6 @@ public extension Task {
 
 public extension Task where Output == () {
     
-    
     static func run(
         tasks: Set<Task>,
         with input: Input
